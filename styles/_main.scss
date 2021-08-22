@@ -46,7 +46,7 @@ main {
         }
 
         span:nth-child(2){
-            background-image: linear-gradient(90deg,#126DA6, #F2C641);
+            background-image: linear-gradient(90deg,#126DA6, #F2C641, );
             animation-delay: 2.33s;
         }
     
@@ -86,5 +86,10 @@ main {
             }
 
         }
+    }
+
+    div.time {
+        width: 150px;
+        display: flex;
     }
 }
