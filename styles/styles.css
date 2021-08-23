@@ -253,3 +253,7 @@ footer {
 }
 /*# sourceMappingURL=styles.css.map */
 
+div {
+  display: inline-block;
+}
+
