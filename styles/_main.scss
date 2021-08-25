@@ -72,7 +72,7 @@ main {
 
             cursor: pointer;
             transition: .2s ease-in;
-
+    
             &.outlined {
                 background: transparent;
                 color: var(--gray);
@@ -83,12 +83,10 @@ main {
                 background: transparent;
                 color: var(--white);
                 border: 0.1rem solid var(--white);
+                
             }
 
         }
-    }
-
-
     }
 
 }

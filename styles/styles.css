@@ -235,13 +235,6 @@ main .buttons > button:hover {
   border: 0.1rem solid var(--white);
 }
 
-main div.time {
-  width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 footer {
   color: var(--white);
   text-transform: uppercase;
@@ -252,8 +245,3 @@ footer {
   margin-bottom: 4.8rem;
 }
 /*# sourceMappingURL=styles.css.map */
-
-div {
-  display: inline-block;
-}
-
