@@ -20,6 +20,26 @@ header {
     align-items: center;
     list-style: none;
 
+    #about {
+      display: none;
+    }
+
+    #desktop_what-is {
+      display: none;
+    }
+
+    @media (min-width: 500px) {
+      #about {
+        display: unset;
+      }
+      #mobile_what-is {
+        display: none;
+      }
+      #desktop_what-is {
+        display: unset;
+      }
+    }
+
     li a {
       font-size: 1.4rem;
       padding: 0.8rem 1.6rem;
