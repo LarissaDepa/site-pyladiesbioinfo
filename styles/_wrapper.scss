@@ -2,6 +2,7 @@
   min-height: 100vh;
 
   display: flex;
+  flex-shrink: 1;
   flex-direction: column;
   align-items: center;
 }
